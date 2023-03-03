@@ -19,6 +19,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 3rem;
 }
 
 .chal{
@@ -34,7 +35,7 @@ body{
 }
 
 .chal:hover, .popup:hover{
-    scale: 1.2;
+    scale: 1.09;
     transform: 0.5s;
 }
 
@@ -81,6 +82,12 @@ span{
   border-style: solid;
   border-color: #555 transparent transparent transparent;
 }
+@media only screen and (max-width: 800px) {
+    .challenge {
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+  }
 
 .popup .show {
   visibility: visible;
