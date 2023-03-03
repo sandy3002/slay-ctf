@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stegnography</title>
+    <link rel="stylesheet" href="chal2.css">
+</head>
+
+<body>
+    <div class="challenge">
+
+        <div class="chal">Click me!</div>
+
+        <div class="popup" onclick="myFunction()">Click me!
+            <span class="popuptext" id="myPopup">
+                <a href="https://drive.google.com/file/d/16M8KcViU4MgtOf8WuZc4NPdJCWaJRRgP/view">Steg me!</a>
+            </span>
+
+        </div>
+
+
+        <div class="chal">Click me!</div>
+        <div class="chal">Click me!</div>
+        <div class="chal">Click me!</div>
+
+    </div>
+    <script>
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
