@@ -23,26 +23,27 @@ body{
 }
 
 .cha{
-    height: 200px;
-    width: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #457b9d;
-    transform: rotate(25deg);
-    border-radius: 10px;
-    box-shadow: 6px 6px 6px rgba(0,0,0,0.5);
+    position: relative;
+  display: inline-block;
+  cursor: pointer;
+  height: 200px;
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #457b9d;
+  border-radius: 4px;
+  box-shadow: 6px 6px 6px rgba(196, 117, 117, 0.5);
 }
 
 a{
     text-decoration: none;
     color: #0c212e;
-    transform: rotate(-25deg);
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .cha:hover{
-    scale: 1.2;
+    scale: 1.09;
     transform: 0.5s;
 }
 

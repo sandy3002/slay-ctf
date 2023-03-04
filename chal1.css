@@ -1,69 +1,70 @@
-body{
-    height: 100vh;
-    width: 100%;
-    background-color: #a8dadc;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #a8dadc;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    font-size: 30px;
-    margin-bottom: 100px;
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 30px;
+  margin-bottom: 100px;
 }
 
-.challenge{
-    margin: 22% 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 3rem;
+.challenge {
+  margin: 22% 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
 }
 
-.chal{
-    height: 200px;
-    width: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #457b9d;
-    transform: rotate(25deg);
-    border-radius: 10px;
-    box-shadow: 6px 6px 6px rgba(0,0,0,0.5);
+.chal {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #457b9d;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
-.chal:hover, .popup:hover{
-    scale: 1.09;
-    transform: 0.5s;
+.chal:hover,
+.popup:hover {
+  scale: 1.09;
+  transform: 0.5s;
 }
 
+a{
+  text-decoration: none;
+  color: #a8dadc;
+}
 .popup {
   position: relative;
   display: inline-block;
   cursor: pointer;
   height: 200px;
-    width: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #457b9d;
-    transform: rotate(25deg);
-    border-radius: 10px;
-    box-shadow: 6px 6px 6px rgba(0,0,0,0.5);
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #457b9d;
+  border-radius: 4px;
+  box-shadow: 6px 6px 6px rgba(196, 117, 117, 0.5);
 }
 
-span{
-    transform: rotate(-25deg);
-}
+
 .popup .popuptext {
   visibility: hidden;
   width: 160px;
-  background-color: #555;
+  background-color: #d64e4e;
   color: #fff;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 8px 0;
   position: absolute;
   z-index: 1;
@@ -82,12 +83,13 @@ span{
   border-style: solid;
   border-color: #555 transparent transparent transparent;
 }
+
 @media only screen and (max-width: 800px) {
-    .challenge {
-      flex-direction: column;
-      gap: 2.5rem;
-    }
+  .challenge {
+    flex-direction: column;
+    gap: 2.5rem;
   }
+}
 
 .popup .show {
   visibility: visible;
@@ -96,11 +98,21 @@ span{
 }
 
 @-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
