@@ -8,19 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+ 
     <div class="navbar">SLAY - DAY 1</div>
     <div class="chal">
         <div class="cha">
-            <a href="chal1.html">Challenge 1</a>
+            <a id="q1" href="demo">Challenge 1</a>
         </div>
 
         <div class="cha">
-            <a href="chal2.html">Challenge 2</a>
+            <a id="q2" href="demo">Challenge 2</a>
         </div>
 
         <div class="cha">
-            <a href="chal3.html">Challenge 3</a>
+            <a id="q3" href="demo">Challenge 3</a>
         </div>
     </div>
+    <script>
+        var username=prompt("Enter your first name, all lowercase");
+        document.getElementById("q1").setAttribute("href",username+"1.html");
+        document.getElementById("q2").setAttribute("href",username+"2.html");
+        document.getElementById("q3").setAttribute("href",username+"3.html");
+    </script>
 </body>
 </html>
