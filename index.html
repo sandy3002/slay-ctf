@@ -9,25 +9,33 @@
 </head>
 <body>
  
-    <div class="navbar">SLAY - DAY 2</div>
-    <div class="chal">
-        <div class="cha">
-            <a id="q1" href="demo">Challenge 1</a>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="LOGO">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#challenges">Challenges</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hello visitor! Welcome to <span>SLAY</span>, a fun project of mine for cyber security enthusiasts.</h1>
+            </div>
         </div>
+    </div>    
 
-        <div class="cha">
-            <a id="q2" href="demo">Challenge 2</a>
-        </div>
+    <!-- --------------------------------Challenges---------------------------- -->
 
-        <div class="cha">
-            <a id="q3" href="demo">Challenge 3</a>
+    <div id="#challenges">
+        <div class="container">
+            <div class="chal">
+                <a href="crypt.html">Cryptography</a>
+            </div>
         </div>
     </div>
-    <script>
-        var username=prompt("Enter your first name, all lowercase");
-        document.getElementById("q1").setAttribute("href",username+"1.html");
-        document.getElementById("q2").setAttribute("href",username+"2.html");
-        document.getElementById("q3").setAttribute("href",username+"3.html");
-    </script>
+    
 </body>
 </html>
