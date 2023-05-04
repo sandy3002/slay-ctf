@@ -18,8 +18,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #000000;
-    color: #aca2a2;
+  background: radial-gradient(#0d1d35, #000000);
+  color: #aca2a2;
 }
 #header{
     width: 100%;
