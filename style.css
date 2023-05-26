@@ -180,6 +180,7 @@ main {
 
 /*--------------contact----------------*/
 #contact {
+  margin-top: 200px;
   background: #0d1d35;
   height: 350px;
   display: flex;
