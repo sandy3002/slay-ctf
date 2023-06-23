@@ -90,6 +90,14 @@ h1 span {
   text-shadow: 4px 8px 8px #3061c9;
 
 }
+#challenges h1{
+  margin: 200px;
+}
+
+#challenges a{
+  color: #ce1650;
+  text-decoration: none !important;
+}
 
 #team h1 span {
   color: #3764c5;
